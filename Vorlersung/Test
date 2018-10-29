@@ -1,0 +1,15 @@
+#/bin/bash
+
+# bei definition kein $
+#ausführung von commands in variable mit $()
+
+DATE = $(date +%T)
+DEBUG = "[debug]:"
+ERROR = "[error]:"
+
+echo "Shell scripting is fun"
+
+rm file 2> /dev/null || echo "$DATE [error]: ALARM! ALARM!"
+
+
+"

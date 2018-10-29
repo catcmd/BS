@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MY_PATH=/HOME//bin
+
+echo "My MY_PATH: $MY_PATH"
+
+gcc -o env_variable env_variable.c && ./env_variable #compile env_variable

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+value=1 ; value2=5
+value="this is a sentence"
+array=(1 2 3)
+array[1] = 5
+echo "array = ${array[@]}"
+echo "num elements = ${#array[*]}"
+echo "${array[0]}"
+exit 1
+
