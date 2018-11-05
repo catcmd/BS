@@ -69,6 +69,11 @@ home/dev #aka cd ~ then pwd
 #rm "d*"
 
 #h) Why has the folder Desktop more than one link
+  # Answ.: Link count Verzeichnis = 2 (normalerweise)
+  # Answ.: name und "." = zeigt auf sich selbst
+  # Answ.: einen weiteren ".." in jedem unter ordner
+  # Answ.: 2 + n (n= Anzahl Unterverzeichnisse)
+    #>>How do I look for all hardlinks of a file?<<
 
 
 ###################################
