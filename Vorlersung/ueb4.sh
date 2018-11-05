@@ -73,6 +73,7 @@ home/dev #aka cd ~ then pwd
   # Answ.: name und "." = zeigt auf sich selbst
   # Answ.: einen weiteren ".." in jedem unter ordner
   # Answ.: 2 + n (n= Anzahl Unterverzeichnisse)
+    #>>How do I look for all hardlinks of a file?<<
 
 
 ###################################
