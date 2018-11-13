@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+#(a) Restore the original Linux kernel sources.
+rm -r .
+tar xf .
+
+#(b) How many fucks are used in the source?
+grep -r "fuck" . | wc -l
+
+#(c) ignore case
+grep -r -i "fuck" . | wc -l
+
+#(d) extended grep -r = recursive -i ignore case OS7p7
+egrep -r -i "(fuck|pissed|bloody|bastard)" . | wc -l
+
+#(f) extended grep cut out -d delimeter (teil trennzeichen) on the left side of file 1 sort -r -u
+egrep -r -i "(fuck|pissed|bloody|bastard)" . | cut -d : -f 1 | sort -r -u
+
+#(g) changes all bloody in all files before the delimeter to damned via
+#xargs execute for all arguments substitutes all I = case insensitive in sed 
+grep -r -i "bloody" . | cut -d : -f 1 | xargs sed -i 's/bloody/damned/gI'
+

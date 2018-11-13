@@ -30,4 +30,4 @@ echo "PATH: $PATH"
 #They'll be seen as one String
 
 #(c) Shell that prints the complete call of into one line
-#5.2c.sh
+#5.2a.sh
