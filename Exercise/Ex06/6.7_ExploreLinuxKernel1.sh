@@ -14,3 +14,4 @@ find . -name *.cpp -exec cat {} \; > count.txt; wc -l count.txt
 #(e)
 find . -name *.c -exec mv {} {}pp \; 
 
+
