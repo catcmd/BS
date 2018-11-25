@@ -1,0 +1,47 @@
+#!/usr/bin/env/bash
+
+#(1)
+
+
+#(d) Install rar
+apt install rar
+
+#(e) Use the commands apt search rar and apt list rar again. Are there any diffrences?
+apt search rar #lists everything that containts rar
+apt list rar #lists the rar and tells u if it has been installed 
+
+#(f) Test if the rar program works
+rar #Aufrufen des package
+
+#(g) Delete the rar package
+apt remove rar
+
+#(2) Buidl your own dep package
+
+#(a) Create an directory 'hello'
+mkdir hello
+
+#(b) Download
+
+#(c) extract with rar -e file | tar xf file
+#(d) init for debian and change it into the newly created folder
+
+#8.3
+
+#(c) Install the newly generated package
+sudo dpkg -i <package>
+
+
+#(d) Check if package is installed
+dpkg -l | grep hello
+
+#(e) remove
+rm -r
+
+#8.4
+#(a) List all ubstalled flatpak packages OS9 p.14
+flatpak list
+
+
+
+

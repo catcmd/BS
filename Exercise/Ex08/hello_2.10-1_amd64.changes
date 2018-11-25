@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 19 Nov 2018 14:44:31 +0100
+Source: hello
+Binary: hello
+Architecture: source all
+Version: 2.10-1
+Distribution: trusty
+Urgency: medium
+Maintainer: Catcmd <dev@unknown>
+Changed-By: Catcmd <ariesu@outlook.de>
+Description:
+ hello      - <insert up to 60 chars description>
+Changes:
+ hello (2.10-1) trusty; urgency=medium
+ .
+   * Copyright: Set Source to 1992-2018 Free Software Foundation, Inc.
+Checksums-Sha1:
+ 6c1212a9c08594255fb5fc4cd6c58c646a51a4ec 766 hello_2.10-1.dsc
+ f7bebf6f9c62a2295e889f66e05ce9bfaed9ace3 725946 hello_2.10.orig.tar.gz
+ 31a3ffa12794a2f087ddc1aa910c32c740f61eb7 2096 hello_2.10-1.debian.tar.xz
+ 04770ee9bec33fa897bba560f05e9355281f8fa6 66916 hello_2.10-1_all.deb
+ 77def49eeb78cbe74a9fdf0ba44d6798f0bb3005 13308 hello_2.10-1_amd64.buildinfo
+Checksums-Sha256:
+ abef0081d790000421e60c9dee2174d2540457b5e15293cc9bb3d9bb6587c733 766 hello_2.10-1.dsc
+ 31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b 725946 hello_2.10.orig.tar.gz
+ c656c16146d078bd3a9352d9ab19c05eaf6017eaf4046c9e097dfff06dab6850 2096 hello_2.10-1.debian.tar.xz
+ a0413118665ffc4db6799a5d018109014a8238ee7448ab50933099db2c7f5d10 66916 hello_2.10-1_all.deb
+ bb07f95150724d89ae76054c357b19dd90e560a30b5202a4b210a5d4cf52b1fe 13308 hello_2.10-1_amd64.buildinfo
+Files:
+ 85173016b4a1bacc77749f3b86a6faa4 766 misc optional hello_2.10-1.dsc
+ 6cd0ffea3884a4e79330338dcc2987d6 725946 misc optional hello_2.10.orig.tar.gz
+ 2f5561e2bbf249a25c3fb818f7779764 2096 misc optional hello_2.10-1.debian.tar.xz
+ 43574cd7082140c386b6575c0ea71194 66916 misc optional hello_2.10-1_all.deb
+ f9cd1f7ca7165fd481ef7cdb22e08ed6 13308 misc optional hello_2.10-1_amd64.buildinfo
