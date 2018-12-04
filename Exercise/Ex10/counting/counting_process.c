@@ -19,6 +19,7 @@ void create_semaphore()
     semid = semget(KEY, 0, IPC_PRIVATE);
     if (semid < 0)
     {
+        //check if semaphore exists
         semid = semget(KEY, 1, IPC_CREAT | IPC_EXCL | PERM);
     
 
