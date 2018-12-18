@@ -1,0 +1,6 @@
+Exercise 11.1:Reader Writer Problem
+
+look at sheet
+
+(a) What is the problem here if nothing is synchronised?
+-

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "sem.h": "c"
+        "sem.h": "c",
+        "message_queue_def.h": "c"
     }
 }
