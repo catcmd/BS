@@ -1,0 +1,28 @@
+#txt 
+
+gcc -fPIC -shared -o supermath.so supermath.c
+compilation terminated.
+[dev@bs-dev library]$ ^C
+[dev@bs-dev library]$ gcc -fPIC -shared -o supermath.so supermath.c
+[dev@bs-dev library]$ ls
+supermath.c  supermath.h  supermath.so
+[dev@bs-dev library]$ cd ../
+[dev@bs-dev sheet_13_mem_management_libs_user_management]$ ls
+library  main_program
+[dev@bs-dev sheet_13_mem_management_libs_user_management]$ cd main_program/
+[dev@bs-dev main_program]$ ls
+math.c
+[dev@bs-dev main_program]$ cd ../library/
+[dev@bs-dev library]$ ls
+supermath.c  supermath.h  supermath.so
+[dev@bs-dev library]$ cp supermath.h /usr/local/include
+cp: cannot create regular file '/usr/local/include/supermath.h': Permission denied
+[dev@bs-dev library]$ sudo cp supermath.h /usr/local/include
+[sudo] password for dev: 
+[dev@bs-dev library]$ ldconfig
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[dev@bs-dev library]$ sudo ldconfig
+[dev@bs-dev library]$ chmod
+chmod: missing operand
+Try 'chmod --help' for more information.
+[dev@bs-dev library]$ ls -l /usr/lib
