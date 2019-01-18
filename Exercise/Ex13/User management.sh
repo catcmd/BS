@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-#(a) Which users exist on your system?
+#(a) Which users exist on your system? (nur usr ausgeben durch cut)
 cat /etc/passwd
 
-#(b) Which groups exist on you rsystem?
+#(b) Which groups exist on you rsystem?(cut)
 cat /etc/group
 
 #(c) Create a new user test.
@@ -23,3 +23,4 @@ groups test
 #(g) Inspect the passwd and group files on your system
 cat /etc/passwd
 cat /etc/group
+
